@@ -20,6 +20,7 @@ Requirements
 ```bash
 $ sudo apt-get install nfs-kernel-server nfs-common portmap
 ```
+On OS X you can also choose to use [the (commercial) Vagrant VMware Fusion plugin](http://www.vagrantup.com/vmware) instead of VirtualBox.
 
 * some patience :)
 
@@ -45,6 +46,12 @@ Finally, you should be able to use:
 ```bash
 $ vagrant up
 ```
+
+By default the VM uses 1GB of memory and 1 CPU core. If you want to use more memory or cores you can use the GITLAB_VAGRANT_MEMORY and GITLAB_VAGRANT_CORES environment variables:
+```bash
+GITLAB_VAGRANT_MEMORY=1536 GITLAB_VAGRANT_CORES=2 vagrant up
+```
+
 **Note:**
 You can't use a vagrant project on an encrypted partition (ie. it won't work if your home directory is encrypted).
 
