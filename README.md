@@ -125,7 +125,7 @@ Information
 
 * Virtual Machine IP: 192.168.3.14
 * Virtual Machine user/password: vagrant/vagrant
-* GitLab webapp running at: http://192.168.3.14:35438/
+* GitLab webapp running at: http://192.168.3.14:3000/
 * GitLab webapp user/password: admin@local.host/5iveL!fe
 * MySQL user/password: vagrant/Vagrant
 * MySQL root password: nonrandompasswordsaregreattoo
