@@ -65,6 +65,11 @@ $ cd /vagrant/gitlabhq/
 $ bundle exec rake gitlab:test
 ```
 
+Start the Gitlab app:
+```bash
+$ bundle exec foreman start
+```
+
 You should also configure your own remote since by default it's going to grab
 gitlab's master branch.
 
