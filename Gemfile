@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'librarian'
+gem 'librarian', '>= 0.0.25'
